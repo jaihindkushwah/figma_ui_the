@@ -76,7 +76,7 @@ function HomePage() {
                   <img src={Sparkle} alt="Sparkle" />
                 </p>
                 <div className="p-6 pb-10 flex flex-col gap-2 ">
-                  <span className="font-[800] text-6xl mt-2 font-[switzer]">
+                  <span className="font-[800] text-6xl mt-2 radio-canada-big">
                     40%
                   </span>
                   <p className="text-[#828282] text-start font-medium text-[18px]">
