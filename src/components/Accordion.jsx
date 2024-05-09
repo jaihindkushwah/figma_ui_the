@@ -11,7 +11,7 @@ function Accordion({ heading, children, isOpen }) {
       <span className="flex justify-between p-1 text-center">
         <span className="text-xl font-semibold">{heading}</span>
         <span className="cursor-pointer" onClick={() => setOpen(!open)}>
-          {!isOpen ? <PlusOutlined /> : <MinusOutlined />}
+          {!open ? <PlusOutlined /> : <MinusOutlined />}
         </span>
       </span>
       {open && <p className="p-2 text-[#617275]">{children}</p>}
