@@ -1,38 +1,35 @@
-.App {
-  text-align: center;
-}
+/* @import url("https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap"); */
+@import url("https://fonts.googleapis.com/css2?family=Covered+By+Your+Grace&family=Manrope:wght@200..800&display=swap");
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
+/* .shadows-into-light-regular {
+  font-family: "Shadows Into Light", cursive;
+  font-style: normal;
+} */
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.shadows-into-light-regular {
+  font-family: "Covered By Your Grace", cursive;
+  /* font-weight: 400; */
+  font-style: normal;
 }
+.VectorIcon {
+  /* Union */
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  /* Vector 5273 (Stroke) */
+
+  position: absolute;
+  width: 476.49px;
+  height: 514.61px;
+  left: 14.51px;
+  top: 274px;
+
+  background: linear-gradient(
+    220.41deg,
+    #70558e 11.45%,
+    rgba(112, 85, 142, 0) 90.79%
+  );
 }
-
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
 }
